@@ -18,7 +18,6 @@ Original problem instructions [here](amenitiz-technical-challenge.md).
 - **Offer Rules**: The offer rules were implemented as a separate class to encapsulate the logic and allow for easy extension and modification. Decided to use the concrete rules as inner classes for simplicity.
   - **Volume Discount**: Implemented as a simple rule that checks the quantity of a specific product in the cart and applies a discount if the quantity meets the required threshold. It applies to the _Buy One Get One Free_ for the Green Tea and could also be used in a future scenario like _Buy 3 get 2 free_.
   - **Bulk QuantityThresholdDiscount**: Rule that checks the quantity of a specific product in the cart and applies a discount if the quantity meets the required threshold. It applies to the Strawberries (buy 3 or more, pay 4.50€ each) and to Coffee (buy 3 ore more, pay 2/3 of original each).
-  - **
 ## How to run
 
 Ensure Ruby 3.2.2 (or greater) is installed on your system. Then, follow these steps:
