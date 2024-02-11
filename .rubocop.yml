@@ -1,0 +1,11 @@
+# Rubocop configuration file
+require:
+  # - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+
+Metrics/BlockLength:
+  Exclude:
+    - '**/spec/**/*'
